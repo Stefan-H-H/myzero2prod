@@ -46,7 +46,7 @@ tracing-actix-web = "0.7"
 #    "chrono",
 #    "migrate"
 #]
-sqlx = { version = "0.6", default-features = false, features = ["runtime-actix-rustls", "macros", "postgres", "uuid", "chrono", "migrate"] }
+sqlx = { version = "0.6", default-features = false, features = ["runtime-actix-rustls", "macros", "postgres", "uuid", "chrono", "migrate", "offline"] }
 
 # Dev dependencies are used exclusively when runnning tests or examples
 # They do not get included in the final application binary!
